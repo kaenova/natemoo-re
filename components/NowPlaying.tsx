@@ -135,7 +135,7 @@ export const Player: React.FC<Props> = ({
           display: "flex",
           alignItems: "center",
           paddingTop: 8,
-          paddingLeft: 4,
+          paddingLeft: 18,
         }}
       >
         <Text style={{ width: '16px', marginRight: '16px' }} size="large" weight="bold">{ isPlaying ? '▶' : '' }</Text>
