@@ -19,10 +19,6 @@ const ReadmeImg = ({ width, height, children }) => {
               :root {
                 color: rgb(36, 41, 46);
               }
-                p {
-                  color: inherit !important;
-                }
-              }
             `}</style>
           {children}
         </div>
