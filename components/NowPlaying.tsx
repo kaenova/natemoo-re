@@ -25,7 +25,7 @@ export const Player: React.FC<Props> = ({
         {`
             .paused { 
               animation-play-state: paused !important;
-              background: #e1e4e8 !important;
+              background: #7a7a7a !important;
             }
 
             img:not([src]) {
@@ -41,6 +41,7 @@ export const Player: React.FC<Props> = ({
             p {
               display: block;
               opacity: 0;
+              color: "#7a7a7a";
             }
 
             .progress-bar {
@@ -49,7 +50,7 @@ export const Player: React.FC<Props> = ({
               max-width: 360px;
               height: 4px;
               margin: -1px;
-              border: 1px solid #e1e4e8;
+              border: 1px solid #7a7a7a;
               border-radius: 4px;
               overflow: hidden;
               padding: 2px;
@@ -149,10 +150,10 @@ export const Player: React.FC<Props> = ({
             marginLeft: 8,
           }}
         >
-          <Text id="track" weight="bold">
+          <Text id="track" weight="bold" color={!track ? "#7a7a7a" : undefined}>
             {`${track ?? ""} `.trim()}
           </Text>
-          <Text id="artist" color={!track ? "gray" : undefined}>
+          <Text id="artist" color={!track ? "#7a7a7a" : undefined}>
             {artist || "Nothing playing..."}
           </Text>
           {track && (
