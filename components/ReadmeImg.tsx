@@ -17,7 +17,7 @@ const ReadmeImg = ({ width, height, children }) => {
                 box-sizing: border-box;
               }
               :root {
-                color: rgb(36, 41, 46);
+                color: #7a7a7a;
               }
             `}</style>
           {children}
