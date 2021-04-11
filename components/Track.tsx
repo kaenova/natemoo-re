@@ -19,10 +19,6 @@ export const Track: React.FC<Props> = ({
     <ReadmeImg width="540" height="64">
       <style>
         {`
-            @media (prefers-color-scheme: dark) {
-              color: #FFF;
-            }
-
             img:not([src]) {
               content: url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==");
               background: #FFF;
