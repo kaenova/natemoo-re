@@ -63,7 +63,7 @@ export const Player: React.FC<Props> = ({
               width: 100%;
               height: 6px;
               transform-origin: left center;
-              background-color: #24292e;
+              background-color: #545454;
               animation: progress ${duration}ms linear;
               animation-delay: -${progress}ms;
             }
@@ -130,7 +130,7 @@ export const Player: React.FC<Props> = ({
         `}
       </style>
       <div
-        className={isPlaying ? "disabled" : ""}
+        className={isPlaying ? "disabled" : "notPlaying"}
         style={{
           display: "flex",
           alignItems: "center",
