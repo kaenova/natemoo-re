@@ -18,7 +18,6 @@ const ReadmeImg = ({ width, height, children }) => {
               }
               :root {
                 color: rgb(36, 41, 46);
-                background: #FFF;
               }
                 p {
                   color: inherit !important;
